@@ -6,6 +6,16 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ::mymail::Richard.Origami@gmail.com
 
+::mysig::
+SendInput, ~Richard McWhirter{Enter}
+SendInput, https://richard.mcwizard.club/professional/{Enter}
+SendInput, {+}1-408-859-0804
+return
+
+::makedetails::
+SendInput, <details><summary> ... </summary>{Enter}{Enter}</details>
+return
+
 ; not sure I like this one anymore
 ;^SPACE::  Winset, AlwaysOnTop, , A
 
